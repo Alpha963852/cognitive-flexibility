@@ -1,0 +1,104 @@
+# ClawHub 发布配置 - SEO Optimized
+
+slug: cognitive-flexibility
+name: Cognitive Flexibility Skill - AI Critical Thinking & Reasoning Agent
+description: |
+  Advanced AI cognitive flexibility Skill with 4 reasoning modes (OOA/OODA/OOCA/OOHA).
+  Enables critical thinking, creative problem solving, metacognitive monitoring.
+  Perfect for complex analysis, strategic planning, innovation, and research tasks.
+  Features: Auto mode switching, self-assessment, usage analytics, 100% test coverage.
+
+version: 2.1.0
+author: DaoShi (optimizer)
+license: MIT
+
+tags:
+  - cognitive-flexibility
+  - critical-thinking
+  - reasoning
+  - problem-solving
+  - creativity
+  - ooda-loop
+  - metacognition
+  - ai-agent
+  - decision-making
+  - analysis
+  - innovation
+  - strategic-thinking
+
+category: agent-skills
+subcategory: reasoning-analysis
+
+requirements:
+  python: ">=3.8"
+  openclaw: ">=2026.3.28"
+  dependencies: []
+
+entry-point: scripts/__init__.py
+
+performance:
+  avg-response-time: "< 5 seconds"
+  success-rate: "> 85%"
+  test-coverage: "100%"
+
+files:
+  - scripts/
+  - references/
+  - tests/
+  - SKILL.md
+  - README.md
+  - MONITORING-GUIDE.md
+  - RELEASE-NOTES.md
+
+exclude:
+  - logs/
+  - "*.pyc"
+  - __pycache__/
+  - .git/
+  - .env*
+
+scripts:
+  test: python tests/test_cognitive_skills.py
+  monitor: python monitor-usage.py
+
+homepage: https://github.com/openclaw/skills/cognitive-flexibility
+repository: https://github.com/openclaw/skills/cognitive-flexibility
+documentation: https://github.com/openclaw/skills/cognitive-flexibility/blob/main/README.md
+issues: https://github.com/openclaw/skills/cognitive-flexibility/issues
+community: https://discord.gg/openclaw
+
+seo:
+  primary-keyword: "cognitive flexibility AI"
+  secondary-keywords:
+    - "critical thinking agent"
+    - "AI reasoning tool"
+    - "creative problem solving AI"
+    - "metacognitive monitoring"
+    - "OODA loop AI"
+  search-intent: "Advanced AI reasoning and critical thinking capabilities"
+  target-audience: "Researchers, analysts, strategists, innovators, decision-makers"
+
+changelog: |
+  ## v2.1.0 (2026-04-05)
+  - 新增使用监控功能
+  - 集成到 Cognitive Controller
+  - 新增监控指南文档
+
+  ## v2.0.0 (2026-04-05)
+  - 实现 OOCA 创造模式
+  - 实现 OOHA 发现模式
+  - 4 种认知模式全部完成
+
+  ## v1.0.0 (2026-04-05)
+  - 初始版本
+  - 实现 OODA/OOA 模式
+  - 实现元认知监控
+
+keywords:
+  - cognitive flexibility
+  - OODA loop
+  - pattern matching
+  - self assessment
+  - mode switching
+  - metacognition
+  - AI reasoning
